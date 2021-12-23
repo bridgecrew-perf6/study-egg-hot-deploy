@@ -1,0 +1,27 @@
+{
+  "name": "study-egg-hot-deploy",
+  "version": "1.0.1",
+  "description": "hot-reload egg.js application",
+  "main": "index.js",
+  "bin": {
+    "egg-deploy": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doubler1125/study-egg-hot-deploy/egg-deploy.git"
+  },
+  "keywords": [
+    "deploy"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "doubler1125",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "js-yaml": "^3.14.0",
+    "nginx-upstream": "^0.1.4",
+    "shelljs": "^0.8.4"
+  }
+}
